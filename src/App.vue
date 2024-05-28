@@ -26,7 +26,7 @@ export default {
         search: searchTerm.value,
       }),
       () => ({
-        debounce: 500,
+        debounce: 2500,
         enabled: searchTerm.value.length > 2
       })
     )
